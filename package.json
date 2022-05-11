@@ -1,0 +1,17 @@
+{
+  "name": "it-verse",
+  "version": "1.0.0",
+  "description": "This is an it web project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohan Rohit Vivek",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}
