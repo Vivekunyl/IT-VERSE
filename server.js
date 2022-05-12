@@ -8,9 +8,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
 app.set('views',path.join(__dirname, './templates/views'));
 
-app.get('/', (req, res) => {
-    res.render('home');
-})
+const home = require('./routes/home');
+
+app.use('',home);
 
 app.listen(PORT,()=>{
     console.log('listening on port '+PORT);
